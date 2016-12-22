@@ -1,0 +1,11 @@
+tp_test_homepage:
+    path:     /
+    defaults: { _controller: TPTestBundle:Index:index }
+
+tp_test_add_product:
+    path:    /product/add
+    defaults: { _controller: TPTestBundle:Index:add }
+
+tp_test_last_product:
+    path:    /product/last
+    defaults: { _controller: TPTestBundle:Index:lastProduct }

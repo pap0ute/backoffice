@@ -1,0 +1,7 @@
+tp_test:
+    resource: "@TPTestBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
